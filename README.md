@@ -1,19 +1,19 @@
 # Introduction-to-IoT-Security-and-Threat-Modelling
 
-# Objective
+## Objective
 The goal of this lab is to understand IoT security vulnerabilities by performing threat modeling and port scanning on an IoT device using a simulator.
 By the end of this experiment, you will be able to:
 ✅ Identify potential security threats in IoT systems.
 ✅ Scan IoT devices for open ports and vulnerabilities.
 ✅ Develop a threat model using the Microsoft Threat Modeling Tool (TMT).
 ________________________________________
-# Required Tools & Software
+## Required Tools & Software
 🔹 IoT Device Simulator: IoTIFY (Online IoT simulator) OR Cisco Packet Tracer.
-🔹 Nmap (Network Scanner): Download.
-🔹 Microsoft Threat Modeling Tool (TMT): Download.
-🔹 Wireshark (Optional for Packet Analysis): Download.
+🔹 Nmap (Network Scanner):
+🔹 Microsoft Threat Modeling Tool (TMT):
+🔹 Wireshark (Optional for Packet Analysis):
 ________________________________________
-# Step-by-Step Procedure
+## Step-by-Step Procedure
 Step 1: Set up an IoT Device in a Simulator
 We will use IoTIFY to simulate an IoT device.
 
@@ -95,7 +95,7 @@ o	Elevation of Privileges: Can a hacker gain admin rights?
 o	Click "Report" → Generate to get a list of security issues.
 ✅ Expected Output: A threat model diagram with identified risks and mitigation plans.
 ________________________________________
-# Result & Analysis
+## Result & Analysis
 🔹 Key Observations
 1.	Network Vulnerabilities Identified:
 o	Open ports detected on IoT devices (e.g., 22, 23, 80, 1883).
@@ -109,7 +109,7 @@ o	Close unused ports and disable Telnet & HTTP.
 o	Implement TLS encryption for MQTT.
 o	Use strong authentication mechanisms (JWT, OAuth).
 ________________________________________
-# Conclusion
+## Conclusion
 In this experiment, we successfully:
 ✅ Simulated an IoT device using IoTIFY or Cisco Packet Tracer.
 ✅ Scanned for vulnerabilities using Nmap.
